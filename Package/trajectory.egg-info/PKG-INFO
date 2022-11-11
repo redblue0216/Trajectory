@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: trajectory
+Version: 0.1
+Summary: Trajectory is a python toolkit for log management, which supports mongo log forwarding.
+Author: shihua
+Author-email: hua.shi@meritech-data.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.9.12
+
+UNKNOWN
+

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="51cm" height="46cm" viewBox="93 44 1017 920" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="94" y="69" width="233.3" height="72"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="94" y="69" width="233.3" height="72"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="210.65" y="85">&lt;&lt;class&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="210.65" y="105">MongoConnector</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="210.65" y="120.2">这是一个mongo连接器，主要功能</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="210.65" y="134.2">提供mongo连接</text>
+    <rect style="fill: #ffffff" x="94" y="141" width="233.3" height="226"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="94" y="141" width="233.3" height="226"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="97" y="155">+host: __init__ = str</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="97" y="170.2">这是一个mongodb的host值</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="97" y="192">+port: __init__ = int</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="97" y="207.2">这是一个mongodb的port值</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="97" y="229">+use: __init__ = str</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="97" y="244.2">这是一个mongodb的用户名</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="97" y="266">+password: __init__ = str</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="97" y="281.2">这是一个mongodb的密码</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="97" y="303">+database: __init__ = str</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="97" y="318.2">这是一个mongodb的数据库</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="97" y="340">+connector: __init__ = object</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="97" y="355.2">这是一个连接器对象属性</text>
+    <rect style="fill: #ffffff" x="94" y="367" width="233.3" height="41"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="94" y="367" width="233.3" height="41"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="97" y="381">+create_connector(): method</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="97" y="396.2">定义一个创建连接器的方法</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="385" y="45" width="153.6" height="72"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="385" y="45" width="153.6" height="72"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="461.8" y="61">&lt;&lt;class&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="461.8" y="81">logging.Filter</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="461.8" y="96.2">这是一个python基础日志包lo</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="461.8" y="110.2">gging的过滤器类</text>
+    <rect style="fill: #ffffff" x="385" y="117" width="153.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="385" y="117" width="153.6" height="8"/>
+    <rect style="fill: #ffffff" x="385" y="125" width="153.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="385" y="125" width="153.6" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="503" y="236" width="202.5" height="86"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="503" y="236" width="202.5" height="86"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="604.25" y="252">&lt;&lt;class&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="604.25" y="272">MongoLogFilter</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="604.25" y="287.2">这是一个针对mongo的日志过滤器</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="604.25" y="301.2">类，主要功能提供日志过滤功能，主要</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="604.25" y="315.2">技术方法重写。</text>
+    <rect style="fill: #ffffff" x="503" y="322" width="202.5" height="41"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="503" y="322" width="202.5" height="41"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="506" y="336">+super: __init__ = object</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="506" y="351.2">这是一个继承初始化步骤	</text>
+    <rect style="fill: #ffffff" x="503" y="363" width="202.5" height="41"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="503" y="363" width="202.5" height="41"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="506" y="377">+filter(): method</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="506" y="392.2">重写一个过滤方法。</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="737" y="48" width="155.75" height="72"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="737" y="48" width="155.75" height="72"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="814.875" y="64">&lt;&lt;class&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="814.875" y="84">logging.Formatter</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="814.875" y="99.2">这是一个python基础日志包lo</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="814.875" y="113.2">gging的格式化类</text>
+    <rect style="fill: #ffffff" x="737" y="120" width="155.75" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="737" y="120" width="155.75" height="8"/>
+    <rect style="fill: #ffffff" x="737" y="128" width="155.75" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="737" y="128" width="155.75" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="844" y="184" width="264.1" height="86"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="844" y="184" width="264.1" height="86"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="976.05" y="200">&lt;&lt;class&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="976.05" y="220">JSONFormatter</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="976.05" y="235.2">这是一个JSON格式化类，主要功能</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="976.05" y="249.2">提供json格式化日志功能，主要技</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="976.05" y="263.2">术方法重写</text>
+    <rect style="fill: #ffffff" x="844" y="270" width="264.1" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="844" y="270" width="264.1" height="8"/>
+    <rect style="fill: #ffffff" x="844" y="278" width="264.1" height="129"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="844" y="278" width="264.1" height="129"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="847" y="292">+format(): method</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="847" y="307.2">重写一个格式化方法</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="847" y="329">+translate(): @staticmethod</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="847" y="344.2">定义一个转化日志记录为json的静</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="847" y="358.2">态方法</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="847" y="380">+set_format_time(): @staticmethod</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="847" y="395.2">定义一个设置格式化的时间的静态方法</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="278" y="670" width="248.7" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="278" y="670" width="248.7" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="402.35" y="686">&lt;&lt;class&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="402.35" y="706">MongoHandler</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="402.35" y="721.2">这是一个mongo日志转发处理器类</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="402.35" y="735.2">，主要功能提供mongo日志转发功</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="402.35" y="749.2">能，主要技术pymongo和方法重</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="402.35" y="763.2">写。</text>
+    <rect style="fill: #ffffff" x="278" y="770" width="248.7" height="115"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="278" y="770" width="248.7" height="115"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="281" y="784">+super: __init__ = object</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="281" y="799.2">这是一个继承初始化步骤</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="281" y="821">+json_format: __init__ = object</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="281" y="836.2">这是一个json格式化实例属性</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="281" y="858">+filter: __init__ = object</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="281" y="873.2">这是一个日志过滤器实例属性</text>
+    <rect style="fill: #ffffff" x="278" y="885" width="248.7" height="41"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="278" y="885" width="248.7" height="41"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="281" y="899">+emit(): method</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="281" y="914.2">重写一个处理日志的方法</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="672" y="637" width="153.6" height="72"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="672" y="637" width="153.6" height="72"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="748.8" y="653">&lt;&lt;class&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="748.8" y="673">logging.Handler</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="748.8" y="688.2">这是一个python基础日志包lo</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="748.8" y="702.2">gging的处理器类</text>
+    <rect style="fill: #ffffff" x="672" y="709" width="153.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="672" y="709" width="153.6" height="8"/>
+    <rect style="fill: #ffffff" x="672" y="717" width="153.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="672" y="717" width="153.6" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="461.8,152.242 461.8,192.5 604.25,192.5 604.25,234.995 "/>
+    <polygon style="fill: #ffffff" points="469.8,152.242 461.8,136.242 453.8,152.242 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="469.8,152.242 461.8,136.242 453.8,152.242 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="814.875,155.242 814.875,167.999 976.05,167.999 976.05,182.993 "/>
+    <polygon style="fill: #ffffff" points="822.875,155.242 814.875,139.242 806.875,155.242 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="822.875,155.242 814.875,139.242 806.875,155.242 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="652.754,681 591.349,681 591.349,798 527.708,798 "/>
+    <polygon style="fill: #ffffff" points="652.754,689 668.754,681 652.754,673 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="652.754,689 668.754,681 652.754,673 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="210.65,434.177 210.65,545.999 402.35,545.999 402.35,668.992 "/>
+    <polygon style="fill: #ffffff" points="210.65,409.005 215.45,423.005 210.65,437.005 205.85,423.005 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="210.65,409.005 215.45,423.005 210.65,437.005 205.85,423.005 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="306.5" y="542.999"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="221.65" y="421.005"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="406.35" y="664.992"></text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="604.25,430.177 604.25,543.999 402.35,543.999 402.35,668.992 "/>
+    <polygon style="fill: #ffffff" points="604.25,405.005 609.05,419.005 604.25,433.005 599.45,419.005 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="604.25,405.005 609.05,419.005 604.25,433.005 599.45,419.005 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="503.3" y="540.999"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="615.25" y="417.005"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="406.35" y="664.992"></text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="976.05,433.178 976.05,545.499 402.35,545.499 402.35,668.992 "/>
+    <polygon style="fill: #ffffff" points="976.05,408.007 980.85,422.007 976.05,436.007 971.25,422.007 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="976.05,408.007 980.85,422.007 976.05,436.007 971.25,422.007 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="689.2" y="542.499"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="987.05" y="420.007"></text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="406.35" y="664.992"></text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="839" y="809" width="194.8" height="72"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="839" y="809" width="194.8" height="72"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="936.4" y="825">&lt;&lt;class&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="936.4" y="845">Interface</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="936.4" y="860.2">这是一个trajectory接口类</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="936.4" y="874.2">，主要功能提供日志记录一级接口</text>
+    <rect style="fill: #ffffff" x="839" y="881" width="194.8" height="41"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="839" y="881" width="194.8" height="41"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="842" y="895">+config: __init__ = dict</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="842" y="910.2">这是一个config配置字典</text>
+    <rect style="fill: #ffffff" x="839" y="922" width="194.8" height="41"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="839" y="922" width="194.8" height="41"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="842" y="936">+log_to_mongo(): method</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="842" y="951.2">定义一个记录日志到mongo的方法</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="552.879,798 689.851,798 689.851,886 837.994,886 "/>
+    <polygon style="fill: #ffffff" points="527.708,798 541.708,793.2 555.708,798 541.708,802.8 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="527.708,798 541.708,793.2 555.708,798 541.708,802.8 "/>
+  </g>
+</svg>

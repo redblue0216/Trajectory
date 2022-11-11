@@ -1,0 +1,26 @@
+====
+设计
+====
+	* 基于python基础包logging开发日志转发处理器
+	* 使用mongodb作为日志存储后端
+	* 支持日志过滤和日志信息选择
+
+技术列表
+--------
+
+	* 继承重写
+	* 静态方法
+	* 对象化
+	* JSON
+	* 微服务-FastAPI
+	* 配置文件-yaml技术
+	* 数据库-MongoDB
+
+
+设计UML图
+---------
+
+以下是设计的UML图：
+
+.. image:: TrajectoryUML.png
+	

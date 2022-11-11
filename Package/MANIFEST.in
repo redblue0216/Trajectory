@@ -1,0 +1,3 @@
+include trajectory/doc/README.mdown
+include trajectory/trajectory_config.yaml
+graft trajectory/test

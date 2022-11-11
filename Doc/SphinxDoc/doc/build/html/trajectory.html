@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-cn" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>trajectory package &mdash; trajectory 0.1 文档</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="prev" title="code" href="modules.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> trajectory
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">code</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">trajectory package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-trajectory.handlers">trajectory.handlers module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id1">模块介绍</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id2">使用示例</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id3">类说明</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#module-trajectory">Module contents</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id4">模块介绍</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id5">使用示例</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id6">类说明</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">trajectory</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="modules.html">code</a> &raquo;</li>
+      <li>trajectory package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/trajectory.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="trajectory-package">
+<h1>trajectory package<a class="headerlink" href="#trajectory-package" title="永久链接至标题">¶</a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="永久链接至标题">¶</a></h2>
+</section>
+<section id="module-trajectory.handlers">
+<span id="trajectory-handlers-module"></span><h2>trajectory.handlers module<a class="headerlink" href="#module-trajectory.handlers" title="永久链接至标题">¶</a></h2>
+<section id="id1">
+<h3>模块介绍<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h3>
+<p>这是一个日志处理器类，包括各种转发后端的处理器</p>
+<p>设计模式：</p>
+<blockquote>
+<div><p>（1）  无</p>
+</div></blockquote>
+<p>关键点：</p>
+<blockquote>
+<div><p>（1）日志转发处理</p>
+</div></blockquote>
+<p>主要功能：</p>
+<blockquote>
+<div><p>（1）提供各种转发后端的处理器</p>
+</div></blockquote>
+</section>
+<section id="id2">
+<h3>使用示例<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h3>
+</section>
+<section id="id3">
+<h3>类说明<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h3>
+<dl class="py class">
+<dt class="sig sig-object py" id="trajectory.handlers.MongoHandler">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">trajectory.handlers.</span></span><span class="sig-name descname"><span class="pre">MongoHandler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">log_database</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">log_collection</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">remark</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'no</span> <span class="pre">remark'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#trajectory.handlers.MongoHandler" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">logging.Handler</span></code></p>
+<p>类介绍：</p>
+<blockquote>
+<div><p>这是一个mongo日志转发处理器类，主要功能提供mongo日志转发功能，主要技术pymongo和方法重写。</p>
+</div></blockquote>
+<dl class="py method">
+<dt class="sig sig-object py" id="trajectory.handlers.MongoHandler.emit">
+<span class="sig-name descname"><span class="pre">emit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">record</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#trajectory.handlers.MongoHandler.emit" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>重写一个处理日志的方法</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：</dt><dd><p>record (object): logging的日志记录对象</p>
+</dd>
+<dt>返回：</dt><dd><p>无</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+</section>
+<section id="module-trajectory">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-trajectory" title="永久链接至标题">¶</a></h2>
+<section id="id4">
+<h3>模块介绍<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h3>
+<p>这是一个基础工具集合类</p>
+<p>设计模式：</p>
+<blockquote>
+<div><p>（1）  无</p>
+</div></blockquote>
+<p>关键点：</p>
+<blockquote>
+<div><p>（1）基础依赖</p>
+</div></blockquote>
+<p>主要功能：</p>
+<blockquote>
+<div><p>（1）基础操作工具集合</p>
+</div></blockquote>
+</section>
+<section id="id5">
+<h3>使用示例<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h3>
+</section>
+<section id="id6">
+<h3>类说明<a class="headerlink" href="#id6" title="永久链接至标题">¶</a></h3>
+<dl class="py class">
+<dt class="sig sig-object py" id="trajectory.JsonFormatter">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">trajectory.</span></span><span class="sig-name descname"><span class="pre">JsonFormatter</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fmt</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">datefmt</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">style</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'%'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">validate</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#trajectory.JsonFormatter" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">logging.Formatter</span></code></p>
+<p>类介绍：</p>
+<blockquote>
+<div><p>这是一个JSON格式化类，主要功能提供json格式化日志功能，主要技术方法重写</p>
+</div></blockquote>
+<dl class="py method">
+<dt class="sig sig-object py" id="trajectory.JsonFormatter.format">
+<span class="sig-name descname"><span class="pre">format</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">record</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#trajectory.JsonFormatter.format" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>重写一个格式化方法</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：</dt><dd><p>record (object): logging日志记录对象</p>
+</dd>
+<dt>返回：</dt><dd><p>msg (dict): 日志字典</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="trajectory.JsonFormatter.set_format_time">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">set_format_time</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">msg</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#trajectory.JsonFormatter.set_format_time" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>定义一个设置格式化时间的静态方法</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：</dt><dd><p>msg (dict): json日志字典</p>
+</dd>
+<dt>返回：</dt><dd><p>无</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="trajectory.JsonFormatter.translate">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">translate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">record</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#trajectory.JsonFormatter.translate" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>定义一个转化日志记录为json的静态方法</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：</dt><dd><p>record (object): logging日志记录对象</p>
+</dd>
+<dt>返回：</dt><dd><p>json_dict (dict): json日志字典</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="trajectory.MongoLogFilter">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">trajectory.</span></span><span class="sig-name descname"><span class="pre">MongoLogFilter</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">remark</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'no</span> <span class="pre">remark'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#trajectory.MongoLogFilter" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">logging.Filter</span></code></p>
+<p>类介绍：</p>
+<blockquote>
+<div><p>这是一个针对mongo的日志过滤器类，主要功能提供日志过滤功能，主要技术方法重写。</p>
+</div></blockquote>
+<dl class="py method">
+<dt class="sig sig-object py" id="trajectory.MongoLogFilter.filter">
+<span class="sig-name descname"><span class="pre">filter</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">record</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#trajectory.MongoLogFilter.filter" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>重写一个过滤方法</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：</dt><dd><p>record (object): logging日志记录对象</p>
+</dd>
+<dt>返回：</dt><dd><p>bool (bool): 是否过滤判断</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="trajectory.MongoManager">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">trajectory.</span></span><span class="sig-name descname"><span class="pre">MongoManager</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">host</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">port</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">username</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">password</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">database</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">collection</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#trajectory.MongoManager" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>类介绍：</p>
+<blockquote>
+<div><p>这是一个MongoDB数据库连接管理类</p>
+</div></blockquote>
+<dl class="py method">
+<dt class="sig sig-object py" id="trajectory.MongoManager.create_mongodb_client">
+<span class="sig-name descname"><span class="pre">create_mongodb_client</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#trajectory.MongoManager.create_mongodb_client" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>定义一个连接mongodb的方法，从MongoManager实例参数中获取方法</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：</dt><dd><p>无</p>
+</dd>
+<dt>返回：</dt><dd><p>mongodb_collection (object): mongodb客户端对象-mongodb集合</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="trajectory.MongoManager.delete_info">
+<span class="sig-name descname"><span class="pre">delete_info</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">query</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#trajectory.MongoManager.delete_info" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>定义一个删除信息json串的方法</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：</dt><dd><p>query (dict): mongodb查询字典</p>
+</dd>
+<dt>返回：</dt><dd><p>result (str): 删除成功信息</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="trajectory.MongoManager.insert_info">
+<span class="sig-name descname"><span class="pre">insert_info</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">info_dict_list</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#trajectory.MongoManager.insert_info" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>定义一个插入信息json串的方法</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：</dt><dd><p>info_dict_list (list): 信息字典列表</p>
+</dd>
+<dt>返回：</dt><dd><p>result (str): 插入成功信息</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="trajectory.MongoManager.query_info">
+<span class="sig-name descname"><span class="pre">query_info</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">query</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">view_index</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#trajectory.MongoManager.query_info" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>定义一个查询信息json串的方法</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：</dt><dd><p>query (dict): mongodb查询字典</p>
+</dd>
+<dt>返回：</dt><dd><p>result_iter (object): 查询结果</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="trajectory.MongoManager.update_info">
+<span class="sig-name descname"><span class="pre">update_info</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">query</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">update</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#trajectory.MongoManager.update_info" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>定义一个更新信息json串的方法</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：</dt><dd><p>query (dict): mongodb查询字典
+update (dict): mongodb更新字典</p>
+</dd>
+<dt>返回：</dt><dd><p>result (str): 更新成功信息</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="modules.html" class="btn btn-neutral float-left" title="code" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 版权所有 2022, shihua.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
